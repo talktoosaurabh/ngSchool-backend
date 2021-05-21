@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+
+/* Header Navbar Css */
+
+.nav-style {
+    background: #ff7230;
+    box-shadow: 0 5px 20px 0 rgb(138 155 165 / 50%);
+}
+
+.header-name {
+    font-family: 'Lobster', cursive;
+}
+
+.header-content {
+    font-family: 'Lobster Two', cursive;
+    font-size: large;
+}
+
+
+/* footer css */
+
+footer {
+    width: 100%;
+    background-color: #ff7230;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 0px;
+    box-shadow: 0 5px 20px 0 rgb(138 155 165 / 50%);
+}
+
+
+/* login and registration page css */
+
+.main_div {
+    height: 100vh;
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub_div {
+    width: 27%;
+}
+
+div h3 {
+    font-family: 'Lobster', cursive;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .sub_div {
+        width: auto;
+    }
+}
